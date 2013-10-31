@@ -1,4 +1,1 @@
 # git config --global core.excludesfile '~/.gitignore_global'
-
-.ruby-gemset
-.ruby-version

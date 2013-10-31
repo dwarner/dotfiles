@@ -18,6 +18,7 @@ alias gf="git fetch"
 alias ga="git add"
 alias gr="git rm"
 alias gb="git branch"
+alias gc="git commit"
 alias gca="git commit -a"
 alias gcm="git commit -m"
 alias ga="git add ."
@@ -26,7 +27,7 @@ alias gl="git log"
 
 # Rails
 alias r="spring rails"
-alias rs="spring rails s --debugger"
+alias rs="spring rails s"
 alias Rm="spring rake db:migrate"
 
 # Capistrano
