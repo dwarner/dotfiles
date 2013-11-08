@@ -1,6 +1,7 @@
 # Commands
 alias h="history"
 alias wi="whois"
+alias t="touch"
 
 # Tools
 alias ack="ack-grep"
@@ -19,17 +20,25 @@ alias ga="git add"
 alias gai="git add -i"
 alias gr="git rm"
 alias gb="git branch"
+alias gbr="git branch -d"
+alias gco="git checkout"
 alias gc="git commit"
 alias gca="git commit -a"
 alias gcm="git commit -m"
+alias gamend="git commit --amend"
+alias grollback="git reset --soft HEAD^"
 alias gaa="git add ."
 alias gd="git diff"
 alias gl="git log"
 
 # Rails
+alias s="spring"
 alias r="spring rails"
 alias rs="spring rails s"
-alias Rm="spring rake db:migrate"
+alias Rdm="spring rake db:migrate"
+alias Rap="spring rake assets:precompile"
+alias Rdmt="spring rake db:migrate && spring rake db:test:prepare"
+alias bi="bundle install"
 
 # Capistrano
 alias cpd="cap production deploy"
@@ -39,7 +48,7 @@ alias csd="cap staging deploy"
 alias hl="heroku login"
 alias hd="git push heroku master"
 alias hr="heroku run rake"
-alias hdm"heroku run rake db:migrate"
+alias hdm="heroku run rake db:migrate"
 alias hc="heroku run rails console"
 alias hs0="heroku ps:scale web=0"
 alias hs1="heroku ps:scale web=1"
