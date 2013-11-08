@@ -2,9 +2,6 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" Automatcially open NERDTree when vim opens
-au VimEnter *  NERDTree
-
 " In command mode, maps 'Q' to 'q' to compensate 
 " for typing :Q accidentally
 cmap Q q
