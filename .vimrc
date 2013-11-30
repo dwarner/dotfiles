@@ -17,13 +17,17 @@ Bundle 'gmarik/vundle'
 " My bundles here:
 "
 " original repos on GitHub
-Bundle 'tpope/vim-fugitive' 
+
 Bundle 'tpope/vim-rails'    
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-fugitive' 
+Bundle 'tpope/vim-surround'
 Bundle 'garbas/vim-snipmate' 
 Bundle 'honza/vim-snippets' 
 Bundle 'tomtom/tcomment_vim'
 Bundle 'mileszs/ack.vim' 
 Bundle 'scrooloose/nerdtree'
+Bundle 'ecomba/vim-ruby-refactoring'
 
 """"""""""""""
 " End Vundle "
