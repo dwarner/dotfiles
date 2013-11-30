@@ -1,5 +1,34 @@
 call pathogen#infect()
 syntax on
+
+""""""""""
+" Vundle "
+""""""""""
+set nocompatible              " be iMproved
+filetype off                  " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My bundles here:
+"
+" original repos on GitHub
+Bundle 'tpope/vim-fugitive' 
+Bundle 'tpope/vim-rails'    
+Bundle 'garbas/vim-snipmate' 
+Bundle 'honza/vim-snippets' 
+Bundle 'tomtom/tcomment_vim'
+Bundle 'mileszs/ack.vim' 
+Bundle 'scrooloose/nerdtree'
+
+""""""""""""""
+" End Vundle "
+""""""""""""""
+
 filetype plugin indent on
 
 " In command mode, maps 'Q' to 'q' to compensate 
