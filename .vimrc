@@ -18,18 +18,33 @@ Bundle 'gmarik/vundle'
 "
 " original repos on GitHub
 
+" vim.rails plugin
 Bundle 'tpope/vim-rails'    
+" use vim.rails features in Ruby projects
 Bundle 'tpope/vim-rake'
-Bundle 'tpope/vim-fugitive' 
+" git plugin
+Bundle 'tpope/vim-fugitive'
+" handles surrounding
 Bundle 'tpope/vim-surround'
+" allows for '.' in plugins like vim-surround
 Bundle 'tpope/vim-repeat'
+" will run ctags on newly bundled gems
 Bundle 'tpope/vim-bundler'
-Bundle 'garbas/vim-snipmate' 
+" creates a sidebar of (ctags) methods
+Bundle 'majutsushi/tagbar'
+" Textmate like vim plugin
+Bundle 'garbas/vim-snipmate'
+" library of snippets for various languages
 Bundle 'honza/vim-snippets' 
+" commenting plugin
 Bundle 'tomtom/tcomment_vim'
-Bundle 'mileszs/ack.vim' 
+" plugin for search with ack (a better grep)
+Bundle 'mileszs/ack.vim'
+" a tree explore
 Bundle 'scrooloose/nerdtree'
+" fast file navigation
 Bundle 'wincent/Command-T'
+" a ruby refactoring plugin
 Bundle 'ecomba/vim-ruby-refactoring'
 
 """"""""""""""
@@ -60,6 +75,9 @@ map <leader>p :NERDTree<CR>
 
 " Mapping for Command-T to \t
 map <leader>t :CommandT<CR>
+
+" Mapping for Tagbar to \b
+nnoremap <silent> <leader>b :TagbarToggle<CR>
 
 " Ctrl-s functionality
 map <C-s> :w<CR>
