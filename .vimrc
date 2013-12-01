@@ -29,6 +29,7 @@ Bundle 'honza/vim-snippets'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'mileszs/ack.vim' 
 Bundle 'scrooloose/nerdtree'
+Bundle 'wincent/Command-T'
 Bundle 'ecomba/vim-ruby-refactoring'
 
 """"""""""""""
@@ -56,6 +57,9 @@ map <leader>c <c-_><c-_>
 
 " Mapping NERDTree to \p
 map <leader>p :NERDTree<CR>
+
+" Mapping for Command-T to \t
+map <leader>t :CommandT<CR>
 
 " Ctrl-s functionality
 map <C-s> :w<CR>
