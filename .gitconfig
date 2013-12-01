@@ -1,0 +1,24 @@
+[user]
+	name = Dennis Warner
+	email = dwarner@localhost
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+  co = checkout
+  c  = commit
+  ca = commit -a
+  s = status
+  p = pull
+  f = fetch
+  a = add
+  ai = add -i
+  r = rm
+  b = branch
+  br = branch -d
+  cm = commit -m
+  amend = commit --amend
+  rollback = reset --soft HEAD^
+  aa = add .
+  d = diff
+  l = log
+
