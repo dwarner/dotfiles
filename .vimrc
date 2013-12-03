@@ -70,11 +70,14 @@ map <space> :
 " Faster shortcut for commenting.  Required T-Comment plugin
 map <leader>c <c-_><c-_>
 
-" Mapping NERDTree to \p
-map <leader>p :NERDTree<CR>
+" Mapping NERDTree to \n
+map <leader>n :NERDTree<CR>
 
 " Mapping for Command-T to \t
 map <leader>t :CommandT<CR>
+
+" Paste (works with clipboard)
+map <C-p> <Esc>"g+P
 
 " Mapping for Tagbar to \b
 nnoremap <silent> <leader>b :TagbarToggle<CR>
