@@ -18,7 +18,9 @@ Bundle 'gmarik/vundle'
 "
 " original repos on GitHub
 
-" vim.rails plugin
+" vim.rails plugins
+" install: BundleInstall
+" update:  BundleInstall! 
 Bundle 'tpope/vim-rails'    
 " use vim.rails features in Ruby projects
 Bundle 'tpope/vim-rake'
@@ -46,6 +48,10 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'wincent/Command-T'
 " a ruby refactoring plugin
 Bundle 'ecomba/vim-ruby-refactoring'
+" a narrow Region Plugin for vim
+Bundle 'chrisbra/NrrwRgn'
+" php.vim : PHP Syntax
+" Bundle 'StanAngeloff/php.vim'
 
 """"""""""""""
 " End Vundle "
